@@ -1,0 +1,79 @@
+/* css reset */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, textarea, select, button {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* custom font */
+@font-face {
+  font-family: "myfont";
+  src: url(./font/Norse-Bold.otf);
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* hero section */
+.hero-section{
+  background-image: url(./halie-west-25xggax4bSA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 35vw;
+  height: 100vh;
+  flex-shrink: 0;
+  
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(from black r g b/ 0.4);
+  margin-top: 230px;
+  
+}
+
+.hero-section p {
+  color: white;
+  font-size: 6rem;
+  font-family: "myfont";
+  text-align: center;
+  vertical-align: center ;
+  
+  
+}
+
+/* form sec-1 */
+.sec-1 {
+  padding-top: 300px;
+  padding-bottom: 60px;
+  background-color: rgb(239, 242, 245);
+  font-weight: bold;
+  font-size: 1.2rem;
+  
+}
