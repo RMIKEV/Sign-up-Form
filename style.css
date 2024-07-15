@@ -27,14 +27,12 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* custom font */
 @font-face {
-  font-family: "myfont";
+  font-family: "norse-bold";
   src: url(./font/Norse-Bold.otf);
 }
 
 body {
   display: flex;
-  height: 100vh;
-  width: 100vw;
 }
 
 /* hero section */
@@ -42,38 +40,38 @@ body {
   background-image: url(./halie-west-25xggax4bSA-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 35vw;
-  height: 100vh;
+  width: 30vw;
+  height: 100vh;  
   flex-shrink: 0;
-  
 }
 
-.logo{
+.hero-section > div{
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: center;
-  background-color:rgb(from black r g b/ 0.4);
-  margin-top: 230px;
-  
-}
-
-.hero-section p {
+  align-items: center;
+  gap:3px;
+  font-size: 80px;
   color: white;
-  font-size: 6rem;
-  font-family: "myfont";
+  font-family: norse-bold;
   text-align: center;
-  vertical-align: center ;
-  
+  background-color: rgba(0, 0 , 0, 40%);
+  margin-top: 200px;
+  margin-bottom: auto;
   
 }
 
-/* form sec-1 */
-.sec-1 {
-  padding-top: 300px;
-  padding-bottom: 60px;
-  background-color: rgb(239, 242, 245);
+.hero-section p{
+  padding-top: 10px;
+}
+
+form div:first-child{
+  padding: 155.45px 250px 50px 40px;
   font-weight: bold;
-  font-size: 1.2rem;
-  
+  font-size: 1.3rem;
+  background-color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+
+form div:first-child > p + p{
+margin-top: 20px;
 }
