@@ -44,13 +44,17 @@ body {
 .hero-section{
   background-image: url(./halie-west-25xggax4bSA-unsplash.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   width: 30vw;
   height: 100vh;  
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  
+ 
 }
 
-.hero-section > div{
+.logo{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,11 +64,20 @@ body {
   font-family: norse-bold;
   text-align: center;
   background-color: rgba(0, 0 , 0, 25%);
-  margin-top: 200px;
-  margin-bottom: auto;
+  margin-top:200px;
+
+  
   
 }
 
+.hero-anchor, .hero-anchor a{
+  color: rgb(215, 211, 211);
+  margin-top: auto;
+  text-align: center;
+  
+}
+
+/* input part */
 .sec1{
   padding: 150.5px 80px 50px 40px;
   font-size: 1.3rem;
@@ -78,7 +91,6 @@ body {
 margin-top: 20px;
 }
 
-/* input part */
 .sign-up{
   margin: 10px 100px 10px 40px;
 }
