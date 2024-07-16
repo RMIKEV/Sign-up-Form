@@ -85,7 +85,7 @@ margin-top: 20px;
 .sign-up >div {
   display: flex;
   align-items: center;
-  max-width: ;
+  
   gap:10%;
 }
 
@@ -115,4 +115,29 @@ input[type="password"]:invalid{
 label{
   font-size: 0.9rem;
 }
+/* button section */
+.login-btn{
+  margin: 20px 40px;
+}
+
+ form button[type="submit"]{
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  background-color: #596D48;
+  width: 220px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+
+ .login-btn a{
+  color:  #596D48;
+  font-weight: bold;
+  text-decoration: none;
+  
+  
+ }
 
