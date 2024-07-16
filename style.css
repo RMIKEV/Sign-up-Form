@@ -19,6 +19,11 @@ img, picture, video, canvas, svg {
 
 input, textarea, select, button {
   font: inherit;
+  font-size: 100%;
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -54,24 +59,60 @@ body {
   color: white;
   font-family: norse-bold;
   text-align: center;
-  background-color: rgba(0, 0 , 0, 40%);
+  background-color: rgba(0, 0 , 0, 25%);
   margin-top: 200px;
   margin-bottom: auto;
   
 }
 
-.hero-section p{
-  padding-top: 10px;
-}
-
-form div:first-child{
-  padding: 155.45px 250px 50px 40px;
-  font-weight: bold;
+.sec1{
+  padding: 150.5px 80px 50px 40px;
   font-size: 1.3rem;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(246, 246, 246);
   line-height: 1.2;
+  font-weight: bold;
+  
 }
 
-form div:first-child > p + p{
+.sec1 > p + p{
 margin-top: 20px;
 }
+
+/* input part */
+.sign-up{
+  margin: 10px 100px 10px 40px;
+}
+.sign-up >div {
+  display: flex;
+  align-items: center;
+  max-width: ;
+  gap:10%;
+}
+
+.sign-up > div> div{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+input {
+  border:solid #E5E7EB;
+  border-radius: 5px;
+  width: 250px;
+}
+
+
+input:focus {
+  box-shadow: inset 1px 1px 2px grey;
+
+}
+
+input[type="password"]:invalid{
+  border:2px solid red;
+}
+
+label{
+  font-size: 0.9rem;
+}
+
